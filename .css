@@ -12,7 +12,7 @@ nav.menu {
     background-color: rgb(247, 236, 188);
     border: rgb(175, 202, 206) 2px solid;
     text-align: center;
-    
+
 }
 /*****VARIAS*****/
 
@@ -27,8 +27,14 @@ footer.cuadroazul {
     background-color: lightblue;
 }
 
+p.menuentrada {
+    margin-left: 120px;
+ }
+
 /*****PAGINA CONTACTO*****/
 iframe.mapa {
     float: right;
 }
+
+
 
