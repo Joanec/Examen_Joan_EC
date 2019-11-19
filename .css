@@ -1,3 +1,4 @@
+/*****PAGINA PRINCIPAL*****/
 img.imagenlogo {
     float: left;
   }
@@ -7,11 +8,13 @@ img.imagenbox {
   img.student {
    text-align: center;
   }
-menu {
-    border: 1px;
-    background-color: rgb(240, 240, 121);
-
+nav.menu {
+    background-color: rgb(247, 236, 188);
+    border: rgb(175, 202, 206) 2px solid;
+    text-align: center;
+    
 }
+/*****VARIAS*****/
 
 h3.azul {
     color: blue;
@@ -24,9 +27,8 @@ footer.cuadroazul {
     background-color: lightblue;
 }
 
+/*****PAGINA CONTACTO*****/
 iframe.mapa {
     float: right;
 }
-table.tabla {
-    
-}
+

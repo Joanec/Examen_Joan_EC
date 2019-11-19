@@ -10,32 +10,37 @@
 <body>
     <main>
             <a href="index.html"><img class="imagenlogo" src="img/logo.png" alt="logo" width="150" height="100"></a>
-        
-        <h2>Web Developers</h2>
-        <form action="formularios-minlength-1.php" method="get">
-                <p>
-                    Login: <input type="text" name="Login" maxlength="6">
-                    Contraseña: <input type="password" name="password" minlength="6">
-                    <input type="submit" value="Enviar"></p>
-              </form>
-        <nav class="menu">
-            <a href="desarrollo.html">Desarrollo</a>
-            <a href="">SEO</a>
-            <a href="">Servicios</a>
-            <a href="">Empresa</a>
-            <a href="contacto.html">Contacto</a>
-        </nav>
+            <div class="cabecera">
+                    <h2>Web Developers</h2>
+                    <table class="tabla">
+                        <form action="formularios-minlength-1.php" method="get">
+                            <p>
+                                Login: <input type="text" name="Login" maxlength="6">
+                                Pass: <input type="password" name="password" minlength="6">
+                                <input type="submit" value="Enviar">
+                            </p>
+                        </form>
+                    </table> 
+                    <br> 
+                    <nav class="menu">
+                        <a href="desarrollo.html">Desarrollo</a>
+                        <a href="">SEO</a>
+                        <a href="">Servicios</a>
+                        <a href="">Empresa</a>
+                        <a href="contacto.html">Contacto</a>
+                    </nav>
+                </div>
     </main>
     <hr>
-    <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3080.0578218848436!2d-0.3904035843313451!3d39.46802242071055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f46da4855e1%3A0x9c6c795bc92d164e!2sInstituto%20de%20Educaci%C3%B3n%20Secundaria%20Abastos!5e0!3m2!1ses!2ses!4v1574151933197!5m2!1ses!2ses" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3080.0578218848436!2d-0.3904035843313451!3d39.46802242071055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f46da4855e1%3A0x9c6c795bc92d164e!2sInstituto%20de%20Educaci%C3%B3n%20Secundaria%20Abastos!5e0!3m2!1ses!2ses!4v1574151933197!5m2!1ses!2ses" width="450" height="325" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
     <h5 class="azul">¿HABLAMOS?</h5>
     <form action="formularios-minlength-1.php" method="get">
-            <p>Nombre: <input type="nombre" name="nombre" maxlength="6"></p>
-            <p>Año de nacimiento: <input type="number" name="nacido" min="1900"></p>
-            <p>email: <input type="email" name="correo" size="40"></p>
+            <p>Nombre: <input type="nombre" name="nombre" maxlength="6" placeholder="Introduzca su nombre"></p>
+            <p>Año de nacimiento: <input type="number" name="nacido" min="1900"placeholder="Introduzca año nacimiento"></p>
+            <p>email: <input type="email" name="correo" size="40"placeholder="Introduzca su email"></p>
             <p>Observaciones <br>
-                <textarea name="texto" rows="6" cols="30">Introduzca su comentario</textarea></p>
-            <p><input type="submit" value="Enviar"><input type="reset" value="Borrar"></p>
+                <textarea name="texto" rows="6" cols="30" placeholder="Introduzca su comentario"></textarea></p>
+            <p class="enviaryborrar"><input type="submit" value="Enviar"><input type="reset" value="Borrar"></p>
     </form>
     <hr>
     <footer class="cuadroazul">
