@@ -5,8 +5,8 @@ img.imagenlogo {
 img.imagenbox {
     float: right;
   }
-  img.student {
-   text-align: center;
+img.student {
+   margin-left: 60px;
   }
 nav.menu {
     background-color: rgb(247, 236, 188);
