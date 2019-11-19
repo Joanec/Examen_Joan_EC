@@ -1,0 +1,32 @@
+img.imagenlogo {
+    float: left;
+  }
+img.imagenbox {
+    float: right;
+  }
+  img.student {
+   text-align: center;
+  }
+menu {
+    border: 1px;
+    background-color: rgb(240, 240, 121);
+
+}
+
+h3.azul {
+    color: blue;
+}
+h5.azul {
+    color: blue;
+}
+
+footer.cuadroazul {
+    background-color: lightblue;
+}
+
+iframe.mapa {
+    float: right;
+}
+table.tabla {
+    
+}
